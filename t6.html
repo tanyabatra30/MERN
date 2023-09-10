@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid gray;
+  background: solid white;
+}
+
+.Login {
+  background-color: #32bd32;
+  color: white;
+  font-size:15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  opacity: 1;
+}
+
+.cancelbox {
+border-radius:5px;
+color:white;
+background-color:red;
+border-color: red;
+padding:8px 18px;
+font-size:15px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+span.psw {
+  float: right;
+  padding-top: 13px;
+}
+
+</style>
+</head>
+<body>
+
+<form>
+
+<img src= "https://www.shareicon.net/data/128x128/2016/09/01/822739_user_512x512.png" width="160px" height="155px" align="center">
+  
+  <div class="container">
+
+    <label for="Username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+    
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+    <button type="submit" class="Login"> Login </button>
+
+
+
+  </div>
+
+<input type="checkbox">Remember me</input>
+  
+  <hr>
+  <br>
+  <div>
+  <button type="cancel" class="cancelbox">Cancel</button>
+  <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+ 
+</form>
+
+</body>
+</html>
