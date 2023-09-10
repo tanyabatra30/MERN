@@ -1,0 +1,9 @@
+th,tr,td{
+    border-radius:10px;
+    background-color: rgb(12, 125, 118);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
