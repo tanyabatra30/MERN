@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <body>
 <style>
@@ -75,6 +75,80 @@ body {
 
 
 
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+.outer{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.inner{
+    width: 260px;
+    height: 250px;
+    position: absolute;   
+    top: 80%;   
+    left: 50%;
+    transform: translate(-50%, -90%);
+    background-color: #800040;x
+    text-align:left;
+    font-family:calibri;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 260px;
+  background-color: #97c4d3;
+}
+
+li a {
+  display: block;
+  color: blue;
+  font-family:Times Roman;
+  padding: 16.5px 16px;
+  font-size:21px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+  font-family:Times Roman;
+}
+
+</style>
+     
+<div class="outer">
+<div class="inner">
+
+<ul>
+<div class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#css">CSS</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="Bootstrap">Bootstrap</a><li>
+</div>
+</ul>
+
+</div></div>
 
 </body>
 </html>
